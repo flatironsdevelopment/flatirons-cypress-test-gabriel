@@ -32,7 +32,7 @@ Before you begin, ensure you have the following software installed on your machi
 
 You will test one of our internal applications called [Flatirons Fuse](https://flatirons.com/products/fuse/).
 Flatirons Fuse is an embeddable CSV importer.
-The application is hosted at: https://fuse-develop.flatirons.com/
+The staging application is hosted at: https://fuse-develop.flatirons.com/
 Please use best practices for testing a third-party service in your tests.
 
 You need to implement the following scenarios using cypress, implement the same test in desktop viewport and mobile viewport:
@@ -54,7 +54,7 @@ Stripe Embedded Checkout Test Scenario:
 
 Description: This scenario tests the upgrade of a user's plan using the Stripe embedded checkout process.
 
-As a user, I can subscribe to a plan using my credit card.
+As a user, I can subscribe to the Professional Plan using my credit card.
 
 Note: The credit card information provided can be one of Stripe's test credit card numbers. These numbers are used for testing purposes and do not perform actual transactions.
 ```
@@ -91,7 +91,9 @@ Feel free to explore the [Cypress documentation](https://docs.cypress.io/) to le
 
 ## Feedback and Submission
 
-After completing the assigned test scenarios, you can submit your work through a pull request. Please provide any necessary documentation or notes along with your submissions.
+After completing the assigned test scenarios, you can submit your work through a pull request.
+
+Please include a 2-3m video walking through your solution.
 
 If you encounter any issues or have questions, don't hesitate to reach out to the assessment coordinators.
 
