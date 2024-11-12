@@ -1,6 +1,6 @@
 describe("template spec", () => {
   it("passes", () => {
-    cy.visit("https://fuse-develop.flatirons.com/");
+    cy.visit("https://staging-fuse-aws.flatirons.com");
   });
 
   it("Does not do much!", () => {
