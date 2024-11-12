@@ -32,7 +32,7 @@ Before you begin, ensure you have the following software installed on your machi
 
 You will test one of our internal applications called [Flatirons Fuse](https://flatirons.com/products/fuse/).
 Flatirons Fuse is an embeddable CSV importer.
-The staging application is hosted at: https://fuse-develop.flatirons.com/
+The staging application is hosted at: https://staging-fuse-aws.flatirons.com
 Please use best practices for testing a third-party service in your tests.
 
 You need to implement the following scenarios using cypress, implement the same test in desktop viewport and mobile viewport:
